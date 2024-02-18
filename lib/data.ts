@@ -29,22 +29,30 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Lightouse Labs Bootcamp',
+    title: 'Education',
     location: 'Vancouver, Canada',
-    description: 'A Coding Bootcamp in Vancouver',
+    description:
+      "As part of my undergraduate studies in Statistics, I had a taste of computer science classes. However, it wasn't until 5 years later I pursued a coding bootcamp (Lighthouse Labs) and decided to pursue a career in programming full-time. One of the best decisions I ever made!",
     icon: React.createElement(LuGraduationCap),
-    date: '2018',
+    date: '2013 - 2018',
   },
   {
     title: 'Front-End Developer',
     location: 'Vancouver, Canada',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'I started as a Front-End developer, where I got to put the skills I learned (React) into pratical use and build real world applications.',
+    icon: React.createElement(FaReact),
+    date: '2018 - 2023',
+  },
+  {
+    title: 'Senior Front-End Developer',
+    location: 'Vancouver, Canada',
+    description:
+      'I am trusted to make strategic business decisions, lead projects, and introduce newer technologies at NetCents. I mentor at the coding bootcamp where I studied so I am also learning the newest and latest skills while sharing my passion for web development.',
     icon: React.createElement(CgWorkAlt),
-    date: '2018 - present',
+    date: '2023 - Present',
   },
 ] as const;
-
 export const projectsData = [
   {
     title: 'NetCents Technology',

@@ -22,9 +22,9 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              visible={true}
               contentStyle={{
-                background:
-                  theme === 'light' ? '#f3f4f6' : 'rgba(255, 255, 255, 0.05)',
+                background: '#f3f4f6',
                 boxShadow: 'none',
                 border: '1px solid rgba(0, 0, 0, 0.05)',
                 textAlign: 'left',
