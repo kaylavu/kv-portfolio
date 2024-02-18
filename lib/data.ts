@@ -2,18 +2,12 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import ncImg from '@/public/ncImg.png';
 
 export const links = [
   {
     name: 'Home',
     hash: '#home',
-  },
-  {
-    name: 'About',
-    hash: '#about',
   },
   {
     name: 'Projects',
@@ -35,52 +29,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Lightouse Labs Bootcamp',
+    location: 'Vancouver, Canada',
     description:
       'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: '2018',
   },
   {
     title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    location: 'Vancouver, Canada',
     description:
       'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
-  },
-  {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2018 - present',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'NetCents Technology',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: 'rmtDev',
-    description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: 'Word Analytics',
-    description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+      'NetCents Technology helps businesses process cryptocurrency payments.',
+    tags: [
+      'React',
+      'Next.js',
+      'Redux',
+      'Redux-Saga',
+      'Styled-Components',
+      'Ruby On Rails',
+    ],
+    imageUrl: ncImg,
   },
 ] as const;
 
@@ -94,14 +73,8 @@ export const skillsData = [
   'Node.js',
   'Git',
   'Tailwind',
-  'Prisma',
-  'MongoDB',
   'Redux',
-  'GraphQL',
-  'Apollo',
-  'Express',
-  'PostgreSQL',
-  'Python',
-  'Django',
+  'SQL',
+  'Ruby On Rails',
   'Framer Motion',
 ] as const;
