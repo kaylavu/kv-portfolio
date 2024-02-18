@@ -31,8 +31,7 @@ export const experiencesData = [
   {
     title: 'Lightouse Labs Bootcamp',
     location: 'Vancouver, Canada',
-    description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+    description: 'A Coding Bootcamp in Vancouver',
     icon: React.createElement(LuGraduationCap),
     date: '2018',
   },
